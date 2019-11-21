@@ -227,7 +227,20 @@ insights:
         group: insights
       - id: inventory
       - id: remediations
+      - id: custom-policies
   top_level: true
+
+custom-policies:
+  title: Custom Policies
+  api:
+    versions:
+      - v1
+  channel: '#flip-mode-squad'
+  deployment_repo: https://not-yet-one
+  frontend:
+    title: Custom Policies
+    paths:
+      - /insights/custom-policies
 
 inventory:
   title: Managed Inventory
